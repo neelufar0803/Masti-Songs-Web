@@ -1,0 +1,140 @@
+.back{
+    background-image: url(../images/back2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.a1{
+    background-color:black;
+    color:white;
+    padding: 8px 0px 6px 0px;
+    height: 50px;
+    width: 100%;
+    overflow: hidden;
+}
+.a1 h1{
+     display: inline;
+     font-weight: 1000;
+     float: left;
+     margin-top: 0px;
+     margin-right: 10px;
+     font-size: 50px;
+     width: 100%;
+     overflow: hidden;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.divider{
+    background-color: red;
+    height: 1.5px;
+}
+.top{
+    margin-left: 20px;
+    font-size: 20px;
+    color: white;
+}
+.video-js{
+   display: block;
+   
+   border-radius: 10px;
+}
+.vjs-poster{
+    border-radius: 10px;
+}
+.video-js .vjs-big-play-button{
+    background-color: red !important;
+}
+.video{
+    border: 1px solid wheat;
+}
+
+@media only screen and (max-width:1300px){
+    .video-js{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:500px){
+    .a1 h1{
+      width: 100%;
+    }
+    .video-js{
+        width: 100%;
+    }
+    .info1{
+        width: 100%;
+    }
+    .h2{
+        width: 100%;
+    }
+    .top{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:300px){
+    .song{
+        width: 100%;
+    }
+    .video-js{
+        width: 100%;
+    }
+    .a1 h1{
+        width: 100%;
+    }
+    .info1{
+        width: 100%;
+    }
+    .h2{
+        width: 100%;
+        font-size: 20px;
+    }
+    .top{
+        width: 100%;
+    }
+    
+}
+.h2{
+    color:lightgoldenrodyellow;
+}
+#info{
+    color: yellow;
+    margin-left: 6px;
+}
+.info1{
+    color: whitesmoke;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.a2{
+    background-color:black;
+    color:white;
+    padding: 8px 0px 6px 0px;
+    height: 70px;
+    width: 100%;
+    overflow: hidden;
+}
+.a2 h1{
+    display: flex;
+    font-weight: 100;
+    margin-left: 4px;
+    float: left;
+    font-size: 40px;
+    overflow: hidden;
+}
+.icons ul li{
+    display: inline-flex;
+    
+}
+.icons ul li img{
+    height: 50px;
+    width: 50px;
+}
+
+#ap1{
+    color: white;
+}
+
+.audio{
+    margin-left: 20px;
+}
